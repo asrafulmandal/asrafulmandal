@@ -1,11 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#090909">
+<title>Asraful Mandal — Video Editor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Asraful Mandal Portfolioterye</h1>
+<div class="scrim" id="scrim"></div>
+<aside class="drawer" id="drawer" aria-hidden="true">
+  <div class="drawer-head"><a class="logo" href="#home">ASRAFUL<span>.</span></a><button class="close" id="closeMenu" aria-label="Close menu">×</button></div>
+  <nav>
+    <a href="#home"><span class="nav-index">01</span>Home</a>
+    <a href="#work"><span class="nav-index">02</span>Selected work</a>
+    <a href="#services"><span class="nav-index">03</span>Services</a>
+    <a href="#about"><span class="nav-index">04</span>About me</a>
+    <a href="#contact"><span class="nav-index">05</span>Contact</a>
+  </nav>
+  <div class="drawer-foot"><span>VIDEO EDITOR / INDIA</span><span>© 2026</span></div>
+</aside>
+<header class="wrap topbar">
+  <a class="logo" href="#home">ASRAFUL<span>.</span></a>
+  <button class="menu-btn" id="openMenu"><span>MENU</span><span class="burger"><i></i><i></i></span></button>
+</header>
+<main>
+<section class="wrap hero" id="home">
+  <div class="hero-copy">
+    <div class="eyebrow">Independent video editor</div>
+    <div class="availability"><i class="dot"></i> Available for select projects</div>
+    <h1>MAKE IT<br><span class="outline">MOVE.</span><br><span class="red">MATTER.</span></h1>
+    <p class="hero-desc">I’m Asraful Mandal — a video editor turning raw footage into engaging visual stories. Built for attention. Designed to leave an impact.</p>
+    <div class="actions"><a class="btn primary" href="#work">Explore my work <span>↗</span></a><a class="btn" href="#contact">Let’s talk <span>↗</span></a></div>
+  </div>
+  <div class="hero-art">
+    <span class="timecode">REC ● 00:01:24:18</span>
+    <img class="hero-image" src="https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1000&q=85" alt="Cinematic film production camera">
+    <span class="frame-label">STORY / MOTION / IMPACT</span>
+  </div>
+  <div class="scroll">Scroll to explore</div>
+</section>
+<div class="marquee"><div class="marquee-track"><span>VIDEO EDITING</span><b>✳</b><span>STORYTELLING</span><b>✳</b><span>MOTION DESIGN</span><b>✳</b><span>COLOR GRADING</span><b>✳</b><span>VIDEO EDITING</span><b>✳</b><span>STORYTELLING</span><b>✳</b><span>MOTION DESIGN</span><b>✳</b><span>COLOR GRADING</span><b>✳</b></div></div>
+<section class="wrap" id="work">
+  <div class="section-head reveal"><div><div class="eyebrow">01 / Selected projects</div><h2>WORK THAT<br>MAKES YOU LOOK.</h2></div><p>A selection of visual directions and editing styles. Replace these sample projects with your real client work and showreels.</p></div>
+  <div class="projects">
+    <article class="project reveal"><div class="project-visual"><img src="https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?auto=format&fit=crop&w=1000&q=85" alt="Cinematic video production setup"><span class="project-tag">01 / BRAND FILM</span><span class="play"></span></div><div class="project-info"><div><h3>Brand Storytelling</h3><p>Commercial · Cinematic edit</p></div><span>2026 ↗</span></div></article>
+    <article class="project reveal"><div class="project-visual"><img src="https://images.unsplash.com/photo-1536240478700-b869070f9279?auto=format&fit=crop&w=1000&q=85" alt="Video editor working at a computer"><span class="project-tag">02 / CREATOR CONTENT</span><span class="play"></span></div><div class="project-info"><div><h3>Creator Cut</h3><p>YouTube · Story-driven edit</p></div><span>2026 ↗</span></div></article>
+    <article class="project reveal"><div class="project-visual"><img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1000&q=85" alt="Cinematic landscape footage"><span class="project-tag">03 / TRAVEL FILM</span><span class="play"></span></div><div class="project-info"><div><h3>Beyond The Frame</h3><p>Travel · Color grading</p></div><span>2026 ↗</span></div></article>
+    <article class="project reveal"><div class="project-visual"><img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1000&q=85" alt="Live event stage lighting"><span class="project-tag">04 / EVENT RECAP</span><span class="play"></span></div><div class="project-info"><div><h3>Moments In Motion</h3><p>Events · Highlights</p></div><span>2026 ↗</span></div></article>
+  </div>
+</section>
+<section class="services" id="services"><div class="wrap">
+  <div class="section-head reveal"><div><div class="eyebrow">02 / What I do</div><h2>EDITING WITH<br>INTENTION.</h2></div><p>From the first cut to the final frame, every detail has a purpose — keeping your audience watching and your message clear.</p></div>
+  <div class="service-list">
+    <div class="service reveal"><span class="num">01</span><h3>Short-form content</h3><p>Reels, Shorts and social-first edits with strong hooks, rhythm and retention-focused storytelling.</p><span class="arrow">↗</span></div>
+    <div class="service reveal"><span class="num">02</span><h3>YouTube & podcasts</h3><p>Long-form storytelling, clean pacing, engaging cuts, subtitles and polished audio-visual flow.</p><span class="arrow">↗</span></div>
+    <div class="service reveal"><span class="num">03</span><h3>Motion graphics</h3><p>Animated titles, kinetic typography, transitions and visual elements that support the story.</p><span class="arrow">↗</span></div>
+    <div class="service reveal"><span class="num">04</span><h3>Color & finishing</h3><p>Thoughtful color correction, cinematic grading, sound polish and export-ready delivery.</p><span class="arrow">↗</span></div>
+  </div>
+</div></section>
+<section class="wrap" id="about"><div class="about-grid">
+  <div class="about-card reveal"><span class="big-mark">AM</span><span class="stamp">ASRAFUL MANDAL / VISUAL CREATIVE</span></div>
+  <div class="about-copy reveal"><div class="eyebrow">03 / A little about me</div><h2>GOOD EDITS.<br>GREAT STORIES.</h2><p>I’m Asraful Mandal, a video editor passionate about turning ideas and raw footage into videos people want to watch. I focus on storytelling, timing, sound, motion and the small details that make a video feel complete.</p><p>Whether it’s a fast-paced social reel, a creator video or a cinematic brand piece, my goal is simple: make every frame count.</p><div class="skills"><span>Premiere Pro</span><span>After Effects</span><span>Storytelling</span><span>Color Grading</span><span>Motion Design</span></div></div>
+</div></section>
+<section class="wrap"><div class="section-head reveal"><div><div class="eyebrow">04 / The workflow</div><h2>FROM RAW TO<br>REMARKABLE.</h2></div></div>
+<div class="process">
+  <div class="step reveal"><b>01 / DISCOVER</b><h3>Understand</h3><p>We align on your audience, goals, references and the feeling the video should create.</p></div>
+  <div class="step reveal"><b>02 / BUILD</b><h3>Shape the story</h3><p>I organize the footage, find the strongest moments and build a clear narrative.</p></div>
+  <div class="step reveal"><b>03 / REFINE</b><h3>Polish every frame</h3><p>Motion, sound, color and detail come together to create a finished experience.</p></div>
+  <div class="step reveal"><b>04 / DELIVER</b><h3>Ready to publish</h3><p>You receive the final export in the formats and sizes your platforms need.</p></div>
+</div></section>
+<section class="wrap contact" id="contact"><div class="contact-panel reveal">
+  <div class="eyebrow">05 / Have a project in mind?</div><h2>LET’S MAKE<br>SOMETHING <span>MATTER.</span></h2>
+  <div class="contact-bottom"><p>Have footage, an idea, or a story that needs the right edit?<br>Tell me what you're building. Let's create something memorable.</p><a class="btn primary" href="mailto:hello@asrafulmandal.com?subject=Video%20Editing%20Project">Start a project <span>↗</span></a></div>
+</div></section>
+</main>
+<footer class="wrap"><span>© 2026 ASRAFUL MANDAL. ALL RIGHTS RESERVED.</span><span>VIDEO EDITOR / INDIA</span><a href="#home">BACK TO TOP ↑</a></footer>
+<script>
+const drawer=document.getElementById('drawer'),scrim=document.getElementById('scrim');
+function openDrawer(){drawer.classList.add('open');scrim.classList.add('show');drawer.setAttribute('aria-hidden','false')}
+function closeDrawer(){drawer.classList.remove('open');scrim.classList.remove('show');drawer.setAttribute('aria-hidden','true')}
+document.getElementById('openMenu').addEventListener('click',openDrawer);
+document.getElementById('closeMenu').addEventListener('click',closeDrawer);
+scrim.addEventListener('click',closeDrawer);
+document.querySelectorAll('.drawer nav a').forEach(a=>a.addEventListener('click',closeDrawer));
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeDrawer()});
+const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+</script>
 </body>
 </html>
